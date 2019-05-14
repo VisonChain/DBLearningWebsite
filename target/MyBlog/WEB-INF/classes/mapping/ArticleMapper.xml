@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vs.dao.ArticleDao">
+    <select id="getArticleById" resultType="com.vs.entity.Article">
+        select * from article a where id = #{id}
+    </select>
+    <select id="getFirst10Article" resultType="com.vs.entity.Article">
+        select * from article limit 10
+    </select>
+
+    <select id="getAllArticles" resultType="com.vs.entity.Article">
+        select * from article
+    </select>
+    <insert id="insertArticle" parameterType="com.vs.entity.Article">
+        INSERT INTO article (title,content,summary,date,author,source) VALUES (#{title},#{content},#{summary},#{date},#{author},#{source})
+    </insert>
+    <delete id="deleteArticleById" parameterType="long">
+        DELETE FROM article WHERE id=#{id}
+    </delete>
+    <update id="updateArticleById" parameterType="com.vs.entity.Article">
+        UPDATE article set title=#{title},content=#{content},summary=#{summary},date=#{date},author=#{author},source=#{source} WHERE id=#{id}
+    </update>
+
+</mapper>

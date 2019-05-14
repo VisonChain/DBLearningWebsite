@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vs.dao.ResDao">
+    <select id="getResById" resultType="com.vs.entity.Res">
+        select * from res where id = #{id}
+    </select>
+
+    <select id="getFirst10Res" resultType="com.vs.entity.Res">
+        select * from res WHERE 1=1 limit 10
+    </select>
+
+    <select id="getAllRes" resultType="com.vs.entity.Res">
+        select * from res
+    </select>
+
+    <delete id="deleteResById" parameterType="long">
+        DELETE FROM res WHERE id=#{id}
+    </delete>
+    <update id="updateResById" parameterType="com.vs.entity.Res">
+        UPDATE res set prefix=#{prefix},suffix=#{suffix},name=#{name},size=#{size},address=#{address} WHERE id=#{id}
+    </update>
+
+    <insert id="insertResById" parameterType="com.vs.entity.Res">
+        INSERT INTO res (prefix, suffix, name, size,address) VALUES (#{prefix},#{suffix},#{name},#{size},#{address})
+    </insert>
+
+    <select id="getAddressByName" parameterType="String" resultType="String">
+        SELECT address FROM res WHERE name=#{name}
+    </select>
+</mapper>
