@@ -9,13 +9,13 @@ import java.util.List;
 @Repository
 public interface VideoDao {
 
-    Video getVideoById(@Param("id") Long id);
+    Video getVideoById(@Param("id") int id);
 
     List<Video> getFirst10Video();
 
     List<Video> getAllVideo();
 
-    void deleteVideoById(Long id);
+    void deleteVideoById(int id);
 
     void insertVideoById(Video video);
 

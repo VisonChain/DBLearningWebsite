@@ -6,7 +6,82 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53929f8a-a3d4-4063-b8a7-1c07588a1326" name="Default" comment="" />
+    <list default="true" id="53929f8a-a3d4-4063-b8a7-1c07588a1326" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/iconfont.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/jquery-1.11.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/jquery.easy-pie-chart.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/test.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/time/jquery.countdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestReview.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestStart.jsp" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/controller/AdminController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/controller/ArticleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/controller/ArticleController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/controller/VideoController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/controller/VideoController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/dao/ArticleDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/dao/ArticleDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/dao/ResDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/dao/ResDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/dao/TestpaperDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/dao/TestpaperDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/dao/VideoDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/dao/VideoDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/entity/Testpaper.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/entity/Testpaper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/service/ArticleService.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/service/ArticleService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/service/ResService.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/service/ResService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/service/TestpaperService.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/service/TestpaperService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/service/VideoService.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/service/VideoService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vs/util/functions.java" afterPath="$PROJECT_DIR$/src/main/java/com/vs/util/functions.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/ResMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/ResMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/TestpaperMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/TestpaperMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/VideoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/VideoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/articleEdit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/articleEdit.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperEdit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperEdit.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperManger.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperManger.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/comm/paperTest.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/comm/paperTest.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestPage.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/admin/articleEdit.jsp" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/admin/articleEdit.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/admin/testpaperEdit.jsp" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/admin/testpaperEdit.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/admin/testpaperManger.jsp" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/admin/testpaperManger.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/controller/AdminController.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/controller/ArticleController.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/controller/ArticleController.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/controller/UserController.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/controller/VideoController.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/controller/VideoController.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/dao/ArticleDao.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/dao/ArticleDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/dao/ResDao.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/dao/ResDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/dao/TestpaperDao.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/dao/TestpaperDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/dao/VideoDao.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/dao/VideoDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/entity/Testpaper.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/entity/Testpaper.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/entity/User.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/service/ArticleService.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/service/ArticleService.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/service/ResService.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/service/ResService.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/service/TestpaperService.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/service/TestpaperService.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/service/VideoService.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/service/VideoService.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/util/functions.class" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/com/vs/util/functions.class" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/mapping/ResMapper.xml" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/mapping/ResMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/mapping/TestpaperMapper.xml" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/mapping/TestpaperMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/mapping/VideoMapper.xml" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/classes/mapping/VideoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/views/comm/paperTest.jsp" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/views/comm/paperTest.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/MyBlog/WEB-INF/views/paperTestPage.jsp" afterPath="$PROJECT_DIR$/target/MyBlog/WEB-INF/views/paperTestPage.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/controller/AdminController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/controller/ArticleController.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/controller/ArticleController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/controller/VideoController.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/controller/VideoController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/dao/ArticleDao.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/dao/ArticleDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/dao/ResDao.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/dao/ResDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/dao/TestpaperDao.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/dao/TestpaperDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/dao/VideoDao.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/dao/VideoDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/entity/Testpaper.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/entity/Testpaper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/service/ArticleService.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/service/ArticleService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/service/ResService.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/service/ResService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/service/TestpaperService.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/service/TestpaperService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/service/VideoService.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/service/VideoService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vs/util/functions.class" afterPath="$PROJECT_DIR$/target/classes/com/vs/util/functions.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/ResMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/ResMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/TestpaperMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/TestpaperMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/VideoMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/VideoMapper.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,11 +136,16 @@
       <find>am-topbar-fixed</find>
       <find>login</find>
       <find>content</find>
+      <find>Long</find>
     </findStrings>
     <replaceStrings>
       <replace>Resource</replace>
       <replace>&lt;%=contextPath%&gt;/static</replace>
+      <replace>int</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -75,19 +155,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/video/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/video/videoplay.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/ui2/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/ui2/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/articlePage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vs/controller/ArticleController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/articleManger.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/resManger.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/comm/top.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/comm/head.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/works.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/vs/util/ChatServer.java" />
@@ -104,28 +172,40 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/vs/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/register.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vs/dao/VideoDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/VideoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/videoManger.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/videoPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/videoPlay.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/vs/controller/ResController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vs/controller/VideoController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/articleEdit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vs/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperManger.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperEdit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vs/dao/TestpaperDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/TestpaperMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vs/util/functions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vs/service/TestpaperService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/comm/paperTest.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/vs/config/LoginInterceptors.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vs/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vs/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/chatRoom.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/ResMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/dao/VideoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/VideoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/dao/ResDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/service/ResService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/service/TestpaperService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/dao/TestpaperDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/comm/paperTest.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperReview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/TestpaperMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperManger.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/entity/Testpaper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vs/util/functions.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperEdit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/articleEdit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/vs/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/chatRoom.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestReview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestStart.jsp" />
       </list>
     </option>
   </component>
@@ -157,9 +237,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="112" />
-    <option name="y" value="113" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="107" />
+    <option name="y" value="68" />
     <option name="width" value="1658" />
     <option name="height" value="862" />
   </component>
@@ -168,6 +248,7 @@
       <profile-state />
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -183,7 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,13 +311,6 @@
               <item name="DBLearningWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DBLearningWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DBLearningWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,6 +320,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DBLearningWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DBLearningWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DBLearningWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -261,9 +343,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,23 +362,23 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\views\comm" />
-      <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\static" />
-      <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\static\assets\js" />
-      <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\static\assets" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.vs.service" />
-      <recent name="com.vs.dao" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\static" />
       <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\static\adminUI" />
       <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\admin" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vs.service" />
+      <recent name="com.vs.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\static\testpaper" />
+      <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\views\comm" />
+      <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\46100\Documents\IdeaProjects\DBLearningWebsite\src\main\webapp\WEB-INF\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -509,15 +592,18 @@
       <workItem from="1557679965609" duration="3137000" />
       <workItem from="1557741983008" duration="7830000" />
       <workItem from="1557831518797" duration="13196000" />
-      <workItem from="1557850125190" duration="128000" />
+      <workItem from="1557850125190" duration="478000" />
+      <workItem from="1557850898891" duration="432000" />
+      <workItem from="1557898637145" duration="1428000" />
+      <workItem from="1557906953123" duration="29948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181327000" />
+    <option name="totallyTimeSpent" value="213485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12065218" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
@@ -533,15 +619,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.020674646" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23586957" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09031556" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20362474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21002132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -550,7 +637,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02173913" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14130434" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -566,19 +652,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/vs/entity/Testpaper.java</url>
-          <line>30</line>
+          <line>33</line>
           <properties class="com.vs.entity.Testpaper" method="setAnswer">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/vs/dao/TestpaperDao.java</url>
-          <line>17</line>
-          <properties class="com.vs.dao.TestpaperDao" method="getAllIds">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="6" />
@@ -586,299 +664,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/assets/i/app-icon72x72@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/assets2/js/scripts.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/user/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="36" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/assets/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/assets/js/supersized-init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resDownloadPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="101" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="35" column="3" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/dao/VideoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/VideoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="25" column="85" lean-forward="false" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
-          <folding>
-            <marker date="1557671841855" expanded="true" signature="277:313" ph="select * fro... video" />
-            <marker date="1557671841855" expanded="true" signature="404:442" ph="select * fro... video" />
-            <marker date="1557671841855" expanded="true" signature="529:548" ph="select * fro... video" />
-            <marker date="1557671841855" expanded="true" signature="627:659" ph="DELETE FROM video... " />
-            <marker date="1557671841855" expanded="true" signature="753:863" ph="INSERT INTO video... " />
-            <marker date="1557671841855" expanded="true" signature="975:1019" ph="SELECT addre... video" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/user/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/user/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/comm/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/videoPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="57" column="68" lean-forward="false" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/video.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86238">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/videoPlay.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/controller/ResController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/entity/Testpaper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/videoManger.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/articleEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ArticleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <marker date="1556452486418" expanded="true" signature="283:323" ph="select * fro... article" />
-            <marker date="1556452486418" expanded="true" signature="417:447" ph="select * fro... article" />
-            <marker date="1556452486418" expanded="true" signature="539:560" ph="select * fro... article" />
-            <marker date="1556452486418" expanded="true" signature="653:783" ph="INSERT INTO article... " />
-            <marker date="1556452486418" expanded="true" signature="863:897" ph="DELETE FROM article... " />
-            <marker date="1556452486418" expanded="true" signature="994:1127" ph="UPDATE article... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperManger.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-744">
-          <caret line="56" column="56" lean-forward="false" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/adminUI/editormd/editormd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="153" column="66" lean-forward="false" selection-start-line="153" selection-start-column="66" selection-end-line="153" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="85" lean-forward="true" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ResMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding>
-            <marker date="1556299268438" expanded="true" signature="271:305" ph="select * fro... res" />
-            <marker date="1556299268438" expanded="true" signature="392:428" ph="select * fro... res" />
-            <marker date="1556299268438" expanded="true" signature="511:528" ph="select * fro... res" />
-            <marker date="1556299268438" expanded="true" signature="605:635" ph="DELETE FROM res... " />
-            <marker date="1556299268438" expanded="true" signature="724:832" ph="UPDATE res... " />
-            <marker date="1556299268438" expanded="true" signature="922:1030" ph="INSERT INTO res... " />
-            <marker date="1556299268438" expanded="true" signature="1132:1174" ph="SELECT addre... res" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/dao/ResDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/TestpaperMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <marker date="1557747710767" expanded="true" signature="289:329" ph="select * fro... testpaper" />
-            <marker date="1557747710767" expanded="true" signature="428:470" ph="select * fro... testpaper" />
-            <marker date="1557747710767" expanded="true" signature="565:588" ph="select * fro... testpaper" />
-            <marker date="1557747710767" expanded="true" signature="668:692" ph="select id fr... testpaper" />
-            <marker date="1557747710767" expanded="true" signature="775:811" ph="DELETE FROM testpaper... " />
-            <marker date="1557747710767" expanded="true" signature="910:1016" ph="INSERT INTO testpaper... " />
-            <marker date="1557747710767" expanded="true" signature="1118:1227" ph="UPDATE testpaper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/dao/TestpaperDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/util/functions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/service/TestpaperService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/articlePage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="146" column="45" lean-forward="false" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/controller/ChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -900,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/comm/paperTest.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/articleManger.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -921,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/config/MyMVCConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -939,46 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1557664682385" expanded="true" signature="294:364" ph="select * fro... user" />
-            <marker date="1557664682385" expanded="true" signature="473:518" ph="select * fro... user" />
-            <marker date="1557664682385" expanded="true" signature="628:719" ph="INSERT INTO user... " />
-            <marker date="1557664682385" expanded="true" signature="825:850" ph="select * fro... user" />
-            <marker date="1557664682385" expanded="true" signature="825:858" ph="select * fro... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding>
-            <element signature="e#893#894#0" expanded="false" />
-            <element signature="e#950#951#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -987,6 +718,421 @@
         <state relative-caret-position="1584">
           <caret line="66" column="55" lean-forward="false" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/entity/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/entity/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ResMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="78" lean-forward="false" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+          <folding>
+            <marker date="1557922143118" expanded="true" signature="291:325" ph="select * fro... res" />
+            <marker date="1557922143118" expanded="true" signature="412:448" ph="select * fro... res" />
+            <marker date="1557922143118" expanded="true" signature="531:548" ph="select * fro... res" />
+            <marker date="1557922143118" expanded="true" signature="624:654" ph="DELETE FROM res... " />
+            <marker date="1557922143118" expanded="true" signature="743:851" ph="UPDATE res... " />
+            <marker date="1557922143118" expanded="true" signature="941:1049" ph="INSERT INTO res... " />
+            <marker date="1557922143118" expanded="true" signature="1151:1193" ph="SELECT addre... res" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/VideoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="82" lean-forward="false" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+          <folding>
+            <marker date="1557922143094" expanded="true" signature="297:333" ph="select * fro... video" />
+            <marker date="1557922143094" expanded="true" signature="424:462" ph="select * fro... video" />
+            <marker date="1557922143094" expanded="true" signature="549:568" ph="select * fro... video" />
+            <marker date="1557922143094" expanded="true" signature="646:678" ph="DELETE FROM video... " />
+            <marker date="1557922143094" expanded="true" signature="772:882" ph="INSERT INTO video... " />
+            <marker date="1557922143094" expanded="true" signature="994:1038" ph="SELECT addre... video" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/dao/VideoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/dao/ResDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/service/ResService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-739">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/jquery.easy-pie-chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3312">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/jquery-1.11.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1065">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="289" column="40" lean-forward="true" selection-start-line="289" selection-start-column="40" selection-end-line="289" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/articlePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="60" column="36" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="68" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/dao/ArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#447#448#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#539#540#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#629#630#0" expanded="false" />
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#1165#1166#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="109" column="46" lean-forward="false" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/comm/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="51" column="86" lean-forward="true" selection-start-line="51" selection-start-column="86" selection-end-line="51" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="e#251#252#0" expanded="false" />
+            <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#336#337#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#437#438#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#510#511#0" expanded="false" />
+            <element signature="e#546#547#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#670#671#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="591" column="0" lean-forward="false" selection-start-line="591" selection-start-column="0" selection-end-line="591" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/TestpaperMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <marker date="1557942160568" expanded="true" signature="309:349" ph="select * fro... testpaper" />
+            <marker date="1557942160568" expanded="true" signature="448:490" ph="select * fro... testpaper" />
+            <marker date="1557942160568" expanded="true" signature="585:608" ph="select * fro... testpaper" />
+            <marker date="1557942160568" expanded="true" signature="691:715" ph="select id fr... testpaper" />
+            <marker date="1557942160568" expanded="true" signature="797:833" ph="DELETE FROM testpaper... " />
+            <marker date="1557942160568" expanded="true" signature="932:1046" ph="INSERT INTO testpaper... " />
+            <marker date="1557942160568" expanded="true" signature="1148:1264" ph="UPDATE testpaper... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/dao/TestpaperDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/service/TestpaperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/testpaper/time/jquery.countdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="100" column="31" lean-forward="true" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/comm/paperTest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/entity/Testpaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperManger.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="62" column="55" lean-forward="true" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/util/functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="method#checkFileSize#0;class#functions#0" expanded="false" />
+            <element signature="method#getRangeNum#0;class#functions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/testpaperEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#1;n#div#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="122" column="77" lean-forward="false" selection-start-line="122" selection-start-column="77" selection-end-line="122" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestReview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="82" lean-forward="false" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vs/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="84" column="27" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/articleEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="34" column="134" lean-forward="false" selection-start-line="34" selection-start-column="134" selection-end-line="34" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/paperTestStart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#label#0;n#li#2;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

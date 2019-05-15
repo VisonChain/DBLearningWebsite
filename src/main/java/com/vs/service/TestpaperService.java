@@ -19,7 +19,7 @@ public class TestpaperService {
     return testpaperDao.getFirst10Testpaper();
   }
 
-  public Testpaper getTestpaperById(@Param("id") Long id) {
+  public Testpaper getTestpaperById(@Param("id") int id) {
     return testpaperDao.getTestpaperById(id);
   }
 
@@ -27,7 +27,7 @@ public class TestpaperService {
     return testpaperDao.getAllTestpaper();
   }
 
-  public void deleteTestpaperById(Long id) {
+  public void deleteTestpaperById(int id) {
     testpaperDao.deleteTestpaperById(id);
   }
 
@@ -39,9 +39,9 @@ public class TestpaperService {
     testpaperDao.updateTestpaperById(testpaper);
   }
 
-  public List<Long> getAllTestpaperIds(){return testpaperDao.getAllIds();}
+  public List<Integer> getAllTestpaperIds(){return testpaperDao.getAllIds();}
 
-  public List<Testpaper> getTestpaperByIds(List<Long> list){
+  public List<Testpaper> getTestpaperByIds(List<Integer> list){
     List<Testpaper> l = new ArrayList<Testpaper>();
     for (int i=0;i<list.size();i++){
       l.add(getTestpaperById(list.get(i)));
@@ -50,7 +50,7 @@ public class TestpaperService {
   }
 
   public List<Testpaper> getRandomTestpaper(int count){
-    List<Long> num = functions.getRangeNum(getAllTestpaperIds(),count);
+    List<Integer> num = functions.getRangeNum(getAllTestpaperIds(),count);
     return getTestpaperByIds(num);
   }
 }

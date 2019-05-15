@@ -30,19 +30,24 @@
                         <tr>
                             <th>题号</th>
                             <th>问题</th>
-                            <th>选项</th>
+                            <th>选项A</th>
+                            <th>选项B</th>
+                            <th>选项C</th>
+                            <th>选项D</th>
                             <td>答案</td>
                             <td>分值</td>
                             <td>操作1</td>
                             <td>操作2</td>
-
                         </tr>
                         </thead>
                         <tfoot>
                         <tr>
                             <th>题号</th>
                             <th>问题</th>
-                            <th>选项</th>
+                            <th>选项A</th>
+                            <th>选项B</th>
+                            <th>选项C</th>
+                            <th>选项D</th>
                             <td>答案</td>
                             <td>分值</td>
                             <td>操作1</td>
@@ -54,7 +59,10 @@
                             <tr>
                                 <td>${testpaper.id}</td>
                                 <td>${testpaper.question}</td>
-                                <td>${testpaper.category}</td>
+                                <td>${testpaper.a}</td>
+                                <td>${testpaper.b}</td>
+                                <td>${testpaper.c}</td>
+                                <td>${testpaper.d}</td>
                                 <td>${testpaper.answer}</td>
                                 <td>${testpaper.value}</td>
                                 <td><a href="/ad/testpaperUpdate/${testpaper.id}" class="btn btn-success">修改</a></td>

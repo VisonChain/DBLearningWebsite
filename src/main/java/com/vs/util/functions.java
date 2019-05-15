@@ -1,8 +1,7 @@
 package com.vs.util;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+
+import java.util.*;
 
 public class functions {
 
@@ -23,12 +22,12 @@ public class functions {
 
 
   //随机抽取count个随机数
-  public static List<Long> getRangeNum(List<Long> num,int count){
+  public static List<Integer> getRangeNum(List<Integer> num,int count){
     if(!num.isEmpty()){
       if(num.size()<=count){
         return num;
       }else {
-        List<Long> list = new ArrayList<Long>();
+        List<Integer> list = new ArrayList<Integer>();
         Random random = new Random();
         for(int i=0;i<count;i++){
           int target = random.nextInt(num.size());
@@ -41,4 +40,35 @@ public class functions {
       return null;
     }
   }
+
+
+  //list转String
+  public static String listToString(List<Integer> list){
+    if(list!=null){
+      StringBuilder result = new StringBuilder();
+      result.append(list.get(0));
+      for (int i=1;i<list.size();i++){
+        result.append(",").append(list.get(i));
+      }
+      return result.toString();
+    }else {
+      return null;
+    }
+  }
+
+  //string转list
+  public static List<Integer> stringToList(String strs){
+    if(strs!=null){
+      String str[] = strs.split(",");
+      List<Integer> list = new ArrayList<Integer>();
+      for (String s : str){
+        list.add(Integer.parseInt(s));
+      }
+      return list;
+    }else {
+      return null;
+    }
+
+  }
+
 }

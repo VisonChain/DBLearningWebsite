@@ -18,7 +18,7 @@ public class ArticleController {
   @Resource private ArticleService articleService;
 
   @RequestMapping("/detail/{id}")
-  public String detail(@PathVariable("id") Long id, Model model) {
+  public String detail(@PathVariable("id") int id, Model model) {
     Article article = articleService.getArticleById(id);
     Markdown markdown = new Markdown();
     try {

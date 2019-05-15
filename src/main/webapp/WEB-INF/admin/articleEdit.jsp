@@ -24,20 +24,15 @@
                 <div class="input-group">
                     <c:choose>
                         <c:when test="${article==null}">
-                            <input type="text" class="form-control" placeholder="标题" name="title">
-                            <input type="text" class="form-control" placeholder="作者" name="author">
-                            <input type="text" class="form-control" placeholder="来源" name="source">
+                            <p>标题<input type="text" class="form-control" placeholder="标题" name="title"></p>
+                            <p>作者<input type="text" class="form-control" placeholder="作者" name="author"></p>
+                            <p>来源<input type="text" class="form-control" placeholder="来源" name="source"></p>
                         </c:when>
                         <c:otherwise>
                             <input name="id" type="hidden" value="${article.id}">
-                            <input type="text" class="form-control" placeholder="标题" name="title"
-                                   value="${article.title}">
-
-                            <input type="text" class="form-control" placeholder="作者" name="author"
-                                   value="${article.author}">
-
-                            <input type="text" class="form-control" placeholder="来源" name="source"
-                                   value="${article.source}">
+                            <p>标题<input type="text" class="form-control" placeholder="标题" name="title" value="${article.title}"></p>
+                            <p>作者<input type="text" class="form-control" placeholder="作者" name="author" value="${article.author}"></p>
+                            <p>来源<input type="text" class="form-control" placeholder="来源" name="source" value="${article.source}"></p>
                         </c:otherwise>
                     </c:choose>
                 </div>

@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface ArticleDao {
-  Article getArticleById(@Param("id") Long id);
+  Article getArticleById(@Param("id") int id);
 
   List<Article> getFirst10Article();
 
@@ -16,7 +16,7 @@ public interface ArticleDao {
 
   void insertArticle(Article article);
 
-  void deleteArticleById(Long id);
+  void deleteArticleById(int id);
 
   void updateArticleById(Article article);
 }

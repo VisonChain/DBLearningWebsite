@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.vs.dao.VideoDao">
-    <select id="getVideoById" resultType="com.vs.entity.Video">
+    <select id="getVideoById" resultType="com.vs.entity.Video" parameterType="int">
         select * from video where id = #{id}
     </select>
 
@@ -15,7 +15,7 @@
         select * from video
     </select>
 
-    <delete id="deleteVideoById" parameterType="long">
+    <delete id="deleteVideoById" parameterType="int">
         DELETE FROM video WHERE id=#{id}
     </delete>
 

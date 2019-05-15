@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.vs.dao.TestpaperDao">
-    <select id="getTestpaperById" resultType="com.vs.entity.Testpaper">
+    <select id="getTestpaperById" resultType="com.vs.entity.Testpaper" parameterType="int">
         select * from testpaper where id = #{id}
     </select>
 
@@ -15,21 +15,21 @@
         select * from testpaper
     </select>
 
-    <select id="getAllIds" resultType="java.lang.Long">
+    <select id="getAllIds" resultType="java.lang.Integer">
         select id from testpaper
     </select>
 
-    <delete id="deleteTestpaperById" parameterType="long">
+    <delete id="deleteTestpaperById" parameterType="int">
         DELETE FROM testpaper WHERE id=#{id}
     </delete>
 
 
     <insert id="insertTestpaper" parameterType="com.vs.entity.Testpaper">
-        INSERT INTO testpaper (question,answer,category,value) VALUES (#{question},#{answer},#{category},#{value})
+        INSERT INTO testpaper (question,answer,a,b,c,d,,value) VALUES (#{question},#{answer},#{a},#{b},#{c},#{d},#{value})
     </insert>
 
     <update id="updateTestpaperById" parameterType="com.vs.entity.Testpaper">
-        UPDATE testpaper set question=#{question},answer=#{answer},category=#{category},value=#{value} WHERE id=#{id}
+        UPDATE testpaper set question=#{question},answer=#{answer},a=#{a},b=#{b},c=#{c},d=#{d},value=#{value} WHERE id=#{id}
     </update>
 
 </mapper>

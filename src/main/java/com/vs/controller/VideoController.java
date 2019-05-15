@@ -107,7 +107,7 @@ public class VideoController {
 
 
   @RequestMapping("/videoPlay/{id}")
-  public String detail(@PathVariable("id") Long id, Model model) {
+  public String detail(@PathVariable("id") int id, Model model) {
     Video video = videoService.getVideoById(id);
     model.addAttribute("video",video);
     return "views/videoPlay";

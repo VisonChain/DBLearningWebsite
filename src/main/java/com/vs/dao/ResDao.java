@@ -9,13 +9,13 @@ import java.util.List;
 @Repository
 public interface ResDao {
 
-    Res getResById(@Param("id") Long id);
+    Res getResById(@Param("id") int id);
 
     List<Res> getFirst10Res();
 
     List<Res> getAllRes();
 
-    void deleteResById(Long id);
+    void deleteResById(int id);
 
     void updateResById(Res resource);
 

@@ -1,8 +1,10 @@
 package com.vs.controller;
 
 import com.vs.entity.Article;
+import com.vs.entity.Testpaper;
 import com.vs.entity.User;
 import com.vs.service.*;
+import com.vs.util.functions;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -98,25 +101,29 @@ public class UserController {
 
   @RequestMapping("/paperTestPage")
   public String PaperTestPage(Model model,HttpSession session) {
-    model.addAttribute("nickname",((User)session.getAttribute("user")).getNickname());
+    User user = (User) session.getAttribute("user");
+    model.addAttribute("nickname",user.getNickname());
+    model.addAttribute("averageNum",user.getAverageNum());
+    model.addAttribute("total",user.getTotal());
+    model.addAttribute("errorNum",functions.stringToList(user.getErrorList()).size());
     return "views/paperTestPage";
   }
 
-  @RequestMapping("/testpaperStart")
-  public String TestpaperStart(Model model){
+  @RequestMapping("/paperTestStart")
+  public String paperTestStart(Model model){
     model.addAttribute("testpapers",testpaperService.getRandomTestpaper(20));
-    return "";
+    return "views/paperTestStart";
   }
 
-  @RequestMapping("/testpaperReview")
-  public String testpaperReview(Model model){
-    return "";
+  @RequestMapping("/paperTestReview")
+  public String paperTestReview(Model model,HttpSession session){
+    User user = (User) session.getAttribute("user");
+    List<Integer> list = functions.stringToList(user.getErrorList());
+    model.addAttribute("testpapers",testpaperService.getTestpaperByIds(list));
+    model.addAttribute("size",testpaperService.getTestpaperByIds(list).size());
+    return "views/paperTestReview";
   }
 
 
-  @RequestMapping("/scoreQuery")
-  public String scoreQuery(Model model){
-    return "";
-  }
 
 }

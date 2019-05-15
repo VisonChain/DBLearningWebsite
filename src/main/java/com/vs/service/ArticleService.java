@@ -14,7 +14,7 @@ public class ArticleService {
   @Resource private ArticleDao articleDao;
   private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
-  public Article getArticleById(Long id) {
+  public Article getArticleById(int id) {
     return articleDao.getArticleById(id);
   }
 
@@ -38,7 +38,7 @@ public class ArticleService {
     articleDao.insertArticle(article);
   }
 
-  public void deleteArticleById(Long id) {
+  public void deleteArticleById(int id) {
     articleDao.deleteArticleById(id);
   }
 

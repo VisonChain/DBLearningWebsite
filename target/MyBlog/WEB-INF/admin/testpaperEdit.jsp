@@ -24,20 +24,21 @@
                 <div class="input-group">
                     <c:choose>
                         <c:when test="${testpaper==null}">
-                            <input type="text" class="form-control" placeholder="问题" name="question">
-                            <input type="text" class="form-control" placeholder="答案" name="answer">
-                            <input type="text" class="form-control" placeholder="分值" name="value">
+                            <p>答案<input type="text" class="form-control" placeholder="答案" name="answer"></p>
+                            <p>分值<input type="text" class="form-control" placeholder="分值" name="value"></p>
+                            <p>A选项<input type="text" class="form-control" placeholder="A选项" name="a"></p>
+                            <p>B选项<input type="text" class="form-control" placeholder="B选项" name="b"></p>
+                            <p>C选项<input type="text" class="form-control" placeholder="C选项" name="c"></p>
+                            <p>D选项<input type="text" class="form-control" placeholder="D选项" name="d"></p>
                         </c:when>
                         <c:otherwise>
                             <input name="id" type="hidden" value="${testpaper.id}">
-                            <input type="text" class="form-control" placeholder="问题" name="question"
-                                   value="${testpaper.question}">
-
-                            <input type="text" class="form-control" placeholder="答案" name="answer"
-                                   value="${testpaper.answer}">
-
-                            <input type="text" class="form-control" placeholder="分值" name="value"
-                                   value="${testpaper.value}">
+                            <p>答案<input type="text" class="form-control" placeholder="答案" name="answer" value="${testpaper.answer}"></p>
+                            <p>分值<input type="text" class="form-control" placeholder="分值" name="value" value="${testpaper.value}"></p>
+                            <p>A选项<input type="text" class="form-control" placeholder="A选项" name="a" value="${testpaper.a}"></p>
+                            <p>B选项<input type="text" class="form-control" placeholder="B选项" name="b" value="${testpaper.b}"></p>
+                            <p>C选项<input type="text" class="form-control" placeholder="C选项" name="c" value="${testpaper.c}"></p>
+                            <p>D选项<input type="text" class="form-control" placeholder="D选项" name="d" value="${testpaper.d}"></p>
                         </c:otherwise>
                     </c:choose>
                 </div>
@@ -48,14 +49,15 @@
             <div id="test-editormd">
                 <c:choose>
                     <c:when test="${testpaper==null}">
-                        <textarea style="display:none;" name="category"></textarea>
+                        <textarea style="display:none;" name="question"></textarea>
                     </c:when>
                     <c:otherwise>
-                        <textarea style="display:none;" name="category">${testpaper.category}</textarea>
+                        <textarea style="display:none;" name="question">${testpaper.question}</textarea>
                     </c:otherwise>
                 </c:choose>
             </div>
         </div>
+
 
         <script type="text/javascript">
             var testEditor;

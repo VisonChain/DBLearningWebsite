@@ -19,7 +19,7 @@ public class ResService {
         return resDao.getFirst10Res();
     }
 
-    public Res getResById(@Param("id") Long id){
+    public Res getResById(@Param("id") int id){
         return resDao.getResById(id);
     }
 
@@ -31,7 +31,7 @@ public class ResService {
         resDao.updateResById(res);
     }
 
-    public void deleteResById(Long id){
+    public void deleteResById(int id){
         resDao.deleteResById(id);
     }
 

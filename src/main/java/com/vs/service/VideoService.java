@@ -19,7 +19,7 @@ public class VideoService {
         return videoDao.getFirst10Video();
     }
 
-    public Video getVideoById(@Param("id") Long id){
+    public Video getVideoById(@Param("id") int id){
         return videoDao.getVideoById(id);
     }
 
@@ -27,7 +27,7 @@ public class VideoService {
         return videoDao.getAllVideo();
     }
 
-    public void deleteVideoById(Long id){
+    public void deleteVideoById(int id){
         videoDao.deleteVideoById(id);
     }
 

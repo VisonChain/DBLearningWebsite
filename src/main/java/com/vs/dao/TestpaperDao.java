@@ -9,15 +9,15 @@ import java.util.List;
 @Repository
 public interface TestpaperDao {
 
-  Testpaper getTestpaperById(@Param("id") Long id);
+  Testpaper getTestpaperById(@Param("id") int id);
 
   List<Testpaper> getFirst10Testpaper();
 
   List<Testpaper> getAllTestpaper();
 
-  List<Long> getAllIds();
+  List<Integer> getAllIds();
 
-  void deleteTestpaperById(Long id);
+  void deleteTestpaperById(int id);
 
   void insertTestpaper(Testpaper testpaper);
 

@@ -81,13 +81,13 @@ public class AdminController {
   }
 
   @RequestMapping("/ad/delete/{id}")
-  public String delete(@PathVariable("id") Long id) {
+  public String delete(@PathVariable("id") int id) {
     articleService.deleteArticleById(id);
     return "redirect:/ad/articleManger";
   }
 
   @RequestMapping("/ad/update/{id}")
-  public String update(@PathVariable("id") Long id, Model model) {
+  public String update(@PathVariable("id") int id, Model model) {
     Article article = articleService.getArticleById(id);
     model.addAttribute("article", article);
     return "admin/articleEdit";
@@ -101,7 +101,7 @@ public class AdminController {
   }
 
   @RequestMapping("/ad/resourceDelete/{id}")
-  public String resourceDelete(@PathVariable("id") Long id) {
+  public String resourceDelete(@PathVariable("id") int id) {
     resService.deleteResById(id);
     return "redirect:/ad/resManger";
   }
@@ -114,7 +114,7 @@ public class AdminController {
   }
 
   @RequestMapping("/ad/videoDelete/{id}")
-  public String videoDelete(@PathVariable("id") Long id) {
+  public String videoDelete(@PathVariable("id") int id) {
     videoService.deleteVideoById(id);
     return "redirect:/ad/videoManger";
   }
@@ -127,13 +127,13 @@ public class AdminController {
   }
 
   @RequestMapping("/ad/testpaperDelete/{id}")
-  public String testpaperDelete(@PathVariable("id") Long id) {
+  public String testpaperDelete(@PathVariable("id") int id) {
     testpaperService.deleteTestpaperById(id);
     return "redirect:/ad/testpaperManger";
   }
 
   @RequestMapping("/ad/testpaperUpdate/{id}")
-  public String testpaperUpdate(@PathVariable("id") Long id, Model model) {
+  public String testpaperUpdate(@PathVariable("id") int id, Model model) {
     model.addAttribute("testpaper", testpaperService.getTestpaperById(id));
     return "admin/testpaperEdit";
   }

@@ -33,21 +33,15 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="开始测试">
-                <a class="nav-link" href="/testpaperStart">
+                <a class="nav-link" href="/paperTestStart">
                     <i class="fa fa-fw fa-dashboard"></i>
                     <span class="nav-link-text">开始测试</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="错题回顾">
-                <a class="nav-link" href="/testpaperReview">
+                <a class="nav-link" href="/paperTestReview">
                     <i class="fa fa-fw fa-area-chart"></i>
                     <span class="nav-link-text">错题回顾</span>
-                </a>
-            </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="成绩查询">
-                <a class="nav-link" href="/scoreQuery">
-                    <i class="fa fa-fw fa-table"></i>
-                    <span class="nav-link-text">成绩查询</span>
                 </a>
             </li>
         </ul>
