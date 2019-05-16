@@ -40,11 +40,11 @@
                     </div>
                     <div class="test_content_nr">
                         <ul>
-                            <c:forEach var="testpaper" items="${testpapers}" begin="0" step="1">
+                            <c:forEach var="testpaper" items="${testpaperReview}" begin="0" step="1">
                                 <li id="qu_0_<%=w++%>">
                                     <div class="test_content_nr_tt">
                                         <i><%=x++%>
-                                        </i><span>(${testpaper.value}分)</span><font>${testpaper.question}</font><b
+                                        </i><span>(${testpaper.fenshu}分)</span><font>${testpaper.question}</font><b
                                             class="icon iconfont">&#xe881;</b>
                                     </div>
 

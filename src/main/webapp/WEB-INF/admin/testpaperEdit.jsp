@@ -25,7 +25,7 @@
                     <c:choose>
                         <c:when test="${testpaper==null}">
                             <p>答案<input type="text" class="form-control" placeholder="答案" name="answer"></p>
-                            <p>分值<input type="text" class="form-control" placeholder="分值" name="value"></p>
+                            <p>分值<input type="text" class="form-control" placeholder="分值" name="fenshu"></p>
                             <p>A选项<input type="text" class="form-control" placeholder="A选项" name="a"></p>
                             <p>B选项<input type="text" class="form-control" placeholder="B选项" name="b"></p>
                             <p>C选项<input type="text" class="form-control" placeholder="C选项" name="c"></p>
@@ -34,7 +34,7 @@
                         <c:otherwise>
                             <input name="id" type="hidden" value="${testpaper.id}">
                             <p>答案<input type="text" class="form-control" placeholder="答案" name="answer" value="${testpaper.answer}"></p>
-                            <p>分值<input type="text" class="form-control" placeholder="分值" name="value" value="${testpaper.value}"></p>
+                            <p>分值<input type="text" class="form-control" placeholder="分值" name="fenshu" value="${testpaper.fenshu}"></p>
                             <p>A选项<input type="text" class="form-control" placeholder="A选项" name="a" value="${testpaper.a}"></p>
                             <p>B选项<input type="text" class="form-control" placeholder="B选项" name="b" value="${testpaper.b}"></p>
                             <p>C选项<input type="text" class="form-control" placeholder="C选项" name="c" value="${testpaper.c}"></p>

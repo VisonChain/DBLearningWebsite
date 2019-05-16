@@ -64,7 +64,7 @@
                                 <td>${testpaper.c}</td>
                                 <td>${testpaper.d}</td>
                                 <td>${testpaper.answer}</td>
-                                <td>${testpaper.value}</td>
+                                <td>${testpaper.fenshu}</td>
                                 <td><a href="/ad/testpaperUpdate/${testpaper.id}" class="btn btn-success">修改</a></td>
                                 <td><a href="/ad/testpaperDelete/${testpaper.id}" class="btn btn-danger">删除</a></td>
                             </tr>

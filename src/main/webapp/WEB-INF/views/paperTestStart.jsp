@@ -1,5 +1,3 @@
-<%@ page import="java.util.List" %>
-<%@ page import="java.util.ArrayList" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
@@ -39,15 +37,11 @@
     <div class="test_main">
         <div class="nr_left">
             <div class="test">
-                <form action="" method="post">
-                    <div class="test_title">
-                        <p class="test_time">
-                            <i class="icon iconfont">&#xe6fb;</i><b class="alt-1">01:40</b>
-                        </p>
-                        <font><input type="button" name="test_jiaojuan" value="交卷"></font>
-                    </div>
-
+                <form action="/paperTestResult" method="post">
                     <div class="test_content">
+                        <div class="test_title">
+                            <font><input type="submit" name="test_jiaojuan" value="交卷"></font>
+                        </div>
                         <div class="test_content_title">
                             <h2>单选题</h2>
                             <p>
@@ -61,14 +55,14 @@
                             <c:forEach var="testpaper" items="${testpapers}" begin="0" step="1">
                                 <li id="qu_0_<%=w++%>">
                                     <div class="test_content_nr_tt">
-                                        <i><%=x++%></i><span>(${testpaper.value}分)</span><font>${testpaper.question}</font><b
+                                        <i><%=x++%></i><span>(${testpaper.fenshu}分)</span><font>${testpaper.question}</font><b
                                             class="icon iconfont">&#xe881;</b>
                                     </div>
 
                                     <div class="test_content_nr_main">
                                         <ul>
                                             <li class="option">
-                                                <input type="radio" class="radioOrCheck" name="a<%=t++%>"
+                                                <input type="radio" class="radioOrCheck" name="answer<%=t++%>"
                                                        id="0_answer_1_option_1" value="A"
                                                 />
                                                 <label for="0_answer_1_option_1">
@@ -79,7 +73,7 @@
 
                                             <li class="option">
 
-                                                <input type="radio" class="radioOrCheck" name="a<%=y++%>"
+                                                <input type="radio" class="radioOrCheck" name="answer<%=y++%>"
                                                        id="0_answer_1_option_2" value="B"
                                                 />
                                                 <label for="0_answer_1_option_2">
@@ -90,7 +84,7 @@
 
                                             <li class="option">
 
-                                                <input type="radio" class="radioOrCheck" name="a<%=u++%>"
+                                                <input type="radio" class="radioOrCheck" name="answer<%=u++%>"
                                                        id="0_answer_1_option_3" value="C"
                                                 />
                                                 <label for="0_answer_1_option_3">
@@ -101,7 +95,7 @@
 
                                             <li class="option">
 
-                                                <input type="radio" class="radioOrCheck" name="a<%=i++%>"
+                                                <input type="radio" class="radioOrCheck" name="answer<%=i++%>"
                                                        id="0_answer_1_option_4" value="D"
                                                 />
                                                 <label for="0_answer_1_option_4">
@@ -113,6 +107,8 @@
                                     </div>
                                 </li>
                             </c:forEach>
+                            <br>
+                            <br>
                         </ul>
                     </div>
                 </form>
@@ -123,12 +119,13 @@
             <div class="nr_rt_main">
                 <div class="rt_nr1">
                     <div class="rt_nr1_title">
-                        <h1>
-                            <i class="icon iconfont">&#xe692;</i>答题卡
-                        </h1>
                         <p class="test_time">
                             <i class="icon iconfont">&#xe6fb;</i><b class="alt-1">01:40</b>
                         </p>
+                        <h1>
+                            <i class="icon iconfont">&#xe692;</i>答题卡
+                        </h1>
+
                     </div>
 
                     <div class="rt_content">

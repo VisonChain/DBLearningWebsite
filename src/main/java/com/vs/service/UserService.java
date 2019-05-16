@@ -21,8 +21,6 @@ public class UserService {
         }
     }
 
-
-
     public boolean register(String username, String password,String nickname){
         if(userDao.isUserEmpty(username).isEmpty()){
             userDao.registerUser(username,password,nickname);
@@ -39,5 +37,9 @@ public class UserService {
 
     public User getUser(String username, String password){
         return userDao.getUser(username,password);
+    }
+
+    public void updateUser(User user){
+        userDao.updateUser(user);
     }
 }

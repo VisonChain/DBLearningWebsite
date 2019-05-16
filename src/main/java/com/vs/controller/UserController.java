@@ -102,28 +102,60 @@ public class UserController {
   @RequestMapping("/paperTestPage")
   public String PaperTestPage(Model model,HttpSession session) {
     User user = (User) session.getAttribute("user");
-    model.addAttribute("nickname",user.getNickname());
-    model.addAttribute("averageNum",user.getAverageNum());
-    model.addAttribute("total",user.getTotal());
-    model.addAttribute("errorNum",functions.stringToList(user.getErrorList()).size());
+    User u =userService.getUser(user.getUsername(),user.getPassword());
+    model.addAttribute("nickname",u.getNickname());
+    model.addAttribute("averageNum",u.getAverageNum());
+    model.addAttribute("total",u.getTotal());
+    model.addAttribute("errorNum",u.getErrorNum());
     return "views/paperTestPage";
   }
 
   @RequestMapping("/paperTestStart")
-  public String paperTestStart(Model model){
-    model.addAttribute("testpapers",testpaperService.getRandomTestpaper(20));
+  public String paperTestStart(Model model,HttpSession session){
+    List<Testpaper> testpapers = testpaperService.getRandomTestpaper(20);
+    model.addAttribute("testpapers",testpapers);
+    session.setAttribute("testpapers",testpapers);
     return "views/paperTestStart";
   }
 
   @RequestMapping("/paperTestReview")
   public String paperTestReview(Model model,HttpSession session){
     User user = (User) session.getAttribute("user");
-    List<Integer> list = functions.stringToList(user.getErrorList());
-    model.addAttribute("testpapers",testpaperService.getTestpaperByIds(list));
+    User u = userService.getUser(user.getUsername(),user.getPassword());
+    List<Integer> list = functions.stringToList(u.getErrorList());
+    for (int i =0;i<list.size();i++){
+      if (list.get(i)==0){
+        list.remove(i);
+      }
+    }
+    model.addAttribute("testpaperReview",testpaperService.getTestpaperByIds(list));
     model.addAttribute("size",testpaperService.getTestpaperByIds(list).size());
     return "views/paperTestReview";
   }
 
+  @RequestMapping("/paperTestResult")
+  public String paperTestResult(HttpServletRequest request,Model model){
+    int count = 0;
+    List<Integer> list1 = new ArrayList<Integer>();
+    User user = (User) request.getSession().getAttribute("user");
+    User u = userService.getUser(user.getUsername(),user.getPassword());
+    List<Testpaper> testpapers = (List<Testpaper>) request.getSession().getAttribute("testpapers");
+    for (int i=0;i<20;i++){
+      if (testpapers.get(i).getAnswer().equals(request.getParameter("answer"+String.valueOf(i)))){
+        count++;
+      }else {
+        list1.add(testpapers.get(i).getId());
+      }
+    }
+    u.setErrorList(functions.listAppend(functions.stringToList(u.getErrorList()),list1));
+    u.setTotal(u.getTotal()+20);
+    u.setErrorNum(u.getErrorNum()+20-count);
+    u.setAverageNum(100.0*(u.getTotal()-u.getErrorNum())/u.getTotal());
+    userService.updateUser(u);
+    model.addAttribute("errorTestpapers",testpaperService.getTestpaperByIds(list1));
+    model.addAttribute("count",5*count);
+    return "views/paperTestResult";
+  }
 
 
 }

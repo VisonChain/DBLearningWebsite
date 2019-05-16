@@ -16,7 +16,7 @@
     <insert id="insertArticle" parameterType="com.vs.entity.Article">
         INSERT INTO article (title,content,summary,date,author,source) VALUES (#{title},#{content},#{summary},#{date},#{author},#{source})
     </insert>
-    <delete id="deleteArticleById" parameterType="long">
+    <delete id="deleteArticleById" parameterType="int">
         DELETE FROM article WHERE id=#{id}
     </delete>
     <update id="updateArticleById" parameterType="com.vs.entity.Article">

@@ -25,11 +25,11 @@
 
 
     <insert id="insertTestpaper" parameterType="com.vs.entity.Testpaper">
-        INSERT INTO testpaper (question,answer,a,b,c,d,,value) VALUES (#{question},#{answer},#{a},#{b},#{c},#{d},#{value})
+        INSERT INTO testpaper (question,answer,a,b,c,d,fenshu) VALUES (#{question},#{answer},#{a},#{b},#{c},#{d},#{fenshu})
     </insert>
 
     <update id="updateTestpaperById" parameterType="com.vs.entity.Testpaper">
-        UPDATE testpaper set question=#{question},answer=#{answer},a=#{a},b=#{b},c=#{c},d=#{d},value=#{value} WHERE id=#{id}
+        UPDATE testpaper set question=#{question},answer=#{answer},a=#{a},b=#{b},c=#{c},d=#{d},fenshu=#{fenshu} WHERE id=#{id}
     </update>
 
 </mapper>

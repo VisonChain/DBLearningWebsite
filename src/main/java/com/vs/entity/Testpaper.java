@@ -9,7 +9,7 @@ public class Testpaper {
     private String b;
     private String c;
     private String d;
-    private int value;
+    private int fenshu;
 
     public int getId() {
         return id;
@@ -67,11 +67,11 @@ public class Testpaper {
         this.d = d;
     }
 
-    public int getValue() {
-        return value;
+    public int getFenshu() {
+        return fenshu;
     }
 
-    public void setValue(int value) {
-        this.value = value;
+    public void setFenshu(int fenshu) {
+        this.fenshu = fenshu;
     }
 }

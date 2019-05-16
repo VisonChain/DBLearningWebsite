@@ -1,13 +1,30 @@
 package com.vs.entity;
 
 public class User {
-
+    private int id;
     private String username;
     private String password;
     private String nickname;
     private double averageNum;
     private int total;
+    private int errorNum;
     private String errorList;
+
+    public int getErrorNum() {
+        return errorNum;
+    }
+
+    public void setErrorNum(int errorNum) {
+        this.errorNum = errorNum;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public double getAverageNum() {
         return averageNum;

@@ -58,38 +58,26 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="card mb-3">
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                            <thead>
-                            <tr>
-                                <th>编号</th>
-                                <th>格式</th>
-                                <th>名称</th>
-                                <td>大小</td>
-                                <td>操作1</td>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <c:forEach begin="0" var="resource" items="${resources}" step="1">
-                                <tr>
-                                    <td>${resource.id}</td>
-                                    <td>${resource.suffix}</td>
-                                    <td>${resource.prefix}</td>
-                                    <td>${resource.size}</td>
-                                    <td>
-                                        <form action="${contextPath}/download/resDownload" method="post">
-                                            <input type="hidden" name="filename" value="${resource.name}">
-                                            <input class="btn btn-success" type="submit" value="下载">
-                                        </form>
-                                    </td>
-                                </tr>
-                            </c:forEach>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="post-preview">
+                <c:forEach begin="0" var="resource" items="${resources}" step="1">
+                    <a>
+                        <h2 class="post-title">
+                                ${resource.prefix}
+                        </h2>
+                    </a>
+                    <p class="post-meta">
+                        文件格式：<a>${resource.suffix}</a>
+                        <br>
+                        文件大小：<a>${resource.size}</a>
+                    </p>
+                    <form action="${contextPath}/download/resDownload" method="post">
+                        <input type="hidden" name="filename" value="${resource.name}">
+
+                        <input class="btn btn-success" type="submit" value="下载">
+                    </form>
+                    <hr>
+                </c:forEach>
+
             </div>
         </div>
     </div>

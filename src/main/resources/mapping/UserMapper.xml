@@ -13,11 +13,15 @@
     </select>
 
     <select id="registerUser" resultType="com.vs.entity.User" parameterType="string">
-        INSERT INTO user (username, password,nickname) VALUES (#{username},#{password},#{nickname})
+        INSERT INTO user (username, password,nickname,errorList,averageNum,total,errorNum) VALUES (#{username},#{password},#{nickname},0,0,0,0)
     </select>
 
     <select id="getUserById" resultType="com.vs.entity.User" parameterType="int">
         select * from user where id=#{id}
     </select>
+
+    <update id="updateUser" parameterType="com.vs.entity.User">
+        UPDATE user SET errorList = #{errorList} ,averageNum=#{averageNum} ,total = #{total},errorNum=#{errorNum} WHERE id=#{id}
+    </update>
 
 </mapper>

@@ -20,4 +20,5 @@ public interface UserDao {
       @Param("nickname") String nickname);
 
 
+  void updateUser(User user);
 }

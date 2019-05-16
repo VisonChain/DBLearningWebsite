@@ -58,11 +58,13 @@ public class functions {
 
   //string转list
   public static List<Integer> stringToList(String strs){
-    if(strs!=null){
+    if(strs!=null && strs!=""){
       String str[] = strs.split(",");
       List<Integer> list = new ArrayList<Integer>();
       for (String s : str){
-        list.add(Integer.parseInt(s));
+        if(s!=null && s!=""){
+          list.add(Integer.parseInt(s));
+        }
       }
       return list;
     }else {
@@ -71,4 +73,19 @@ public class functions {
 
   }
 
+  //list拼接
+  public static String listAppend(List<Integer> Orginlist,List<Integer> list){
+    Orginlist.addAll(list);
+    List newList=new ArrayList(new HashSet(Orginlist));
+    return listToString(newList);
+  }
+
+
+  public static int getNum(List<Integer> list){
+    if(list!=null){
+      return list.size();
+    }else {
+      return 0;
+    }
+  }
 }
